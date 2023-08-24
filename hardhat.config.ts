@@ -27,11 +27,10 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
 const config: HardhatUserConfig = {
   solidity: "0.8.4",
   networks: {
-    rinkeby: {
-      url: "https://rinkeby.infura.io/v3/065e3fecde7f4e429b842d224a570156",
-      gasPrice: 'auto',
-      accounts: ['0xa86e9136e2579d6b42ef2179c19256b679e3ae8e73cf0b2abce71fa68c6df94b']
-    },
+    goerli: {
+      url: 'https://goerli.infura.io/v3/065e3fecde7f4e429b842d224a570156',
+      accounts: ['c6a5ebc6508e6c2f99f738ad40d9922d6c9579d0dbcb3057b423b1fd5bba0ff0'],
+  },
    
   },
   // gasReporter: {
