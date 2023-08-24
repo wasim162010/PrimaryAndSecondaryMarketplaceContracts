@@ -62,7 +62,7 @@ contract SecondaryMarketplace is
      * @dev Address of WETH
      */
     IERC20 private constant _WETH =
-        IERC20(0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2);
+        IERC20(0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6);
 
     /**
      * @dev ID that represents amount of auction items.
